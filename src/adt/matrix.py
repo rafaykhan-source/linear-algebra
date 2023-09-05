@@ -16,3 +16,6 @@ class Matrix:
         self.grid = [[0] * m for _ in range(n)]
         return
 
+    def transpose() -> None:
+        """Transposes the matrix."""
+        return
