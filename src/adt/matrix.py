@@ -12,8 +12,9 @@ class Matrix:
             m (int): Number of Columns.
         """
         self.n = n
+        "The number of rows. Instance Variable."
         self.m = m
-        self.grid = [[0] * m for _ in range(n)]
+        "The number of columns. Instance Variable."
         return
 
     def transpose() -> None:
