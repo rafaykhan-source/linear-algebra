@@ -15,6 +15,8 @@ class Matrix:
         "The number of rows. Instance Variable."
         self.m = m
         "The number of columns. Instance Variable."
+        self.grid = [0] * (m * n)
+        "The underlying 1-D array representing the matrix."
         return
 
     def transpose() -> None:
